@@ -1,0 +1,95 @@
+.post_container {
+    width: 615px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    margin-top: 25px;
+}
+
+.post_header {
+    height: 60px;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+}
+
+.post_image {
+    max-width: 50px;
+    min-height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.images {
+    margin-bottom: 5px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+}
+
+.post_username {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.post_test_unsplash_image {
+    width: 615px;
+    height: 500px;;
+    border: 1px solid hsl(0, 0%, 86%);
+    background-color: #fff;
+    margin-top: none;
+}
+
+.post_reaction_image {
+    width: 25px;
+    height: 25px;
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    
+}
+
+/* .post_likeShareComment {
+    margin-left: 10px;
+} */
+
+.post_likesCount {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.post_comment {
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.post_commentBox {
+    height: 56px;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    font-size: 18px;
+    padding-left: 10px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+}
+
+@media only screen and (max-width: 875px) {
+    .post_container {
+        margin-left: -195px;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .post_test_unsplash_image {
+        width: 615px;
+    }
+    
+}
+
+@media only screen and (max-width: 640px) {
+    .post_container {
+        display: none;
+    }
+}
+
+/* .post_likeShareComment {
+    
+} */

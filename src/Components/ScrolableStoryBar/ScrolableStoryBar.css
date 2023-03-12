@@ -1,0 +1,51 @@
+.storybar_container {
+    height: 120px;
+    width: 615px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    margin-top: 25px;
+    display: flex;
+    overflow-x: scroll;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+}
+
+.storybar_container::-webkit-scrollbar {
+    display: none;
+}
+
+.storybar_story {
+    min-height: 55px;
+    min-width: 55px;
+    border: 3px solid #ff1155;
+}
+
+.story {
+    margin: 25px 10px;
+    
+}
+
+.storyid_text {
+    font-size: 12px;
+    max-width: 60px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 875px) {
+    .storybar_container {
+        margin-left: -195px;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .storybar_container {
+        width: 615px;
+        margin-left: -195px;
+    }
+    
+}
+
+@media only screen and (max-width: 640px) {
+    .post_container {
+        display: none;
+    }
+}
